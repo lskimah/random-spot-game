@@ -1,9 +1,10 @@
 /**
  * Game Interface for methods related to game.
- * @author lskimah
+ * @author lskim
  */
 public interface Game {
     void start();
-    void printScoreBoard();
-    boolean isEnd();
+    boolean endGame();
+    void continueTurn();
+    public void printScore(Player user, Player computer);
 }

@@ -27,10 +27,23 @@ public class Player {
     }
 
     /**
+     * Return player's current score.
+     * @return score.
+     */
+    public int score() {
+        return score;
+    }
+
+    /**
      * Roll a 6-sided die for player's turn.
      * @return a number between 1 and 6.
      */
     public int rollDie() {
         return rand.nextInt(6) + 1;
+    }
+
+    @Override
+    public String toString() {
+        return name;
     }
 }

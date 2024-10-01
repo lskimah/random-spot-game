@@ -59,6 +59,16 @@ public class Board {
     }
 
     /**
+     * Reset the board by making all spots null.
+     */
+    public void reset() {
+        for (int i = 0; i < spots.length; i++) {
+            spots[i] = null;
+        }
+    }
+
+
+    /**
      * Return a String representation of the current board.
      * @return current board statement.
      */
