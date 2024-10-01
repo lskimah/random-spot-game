@@ -12,6 +12,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
+        // Output direction
         System.out.println("random-spot-game:\nUser(you) and computer compete by rolling a 6-side die to select " +
                         "which of the 6 spots to add their name to it.\nThere is a small chance that the user can select "
                 + "which spot to add their name.\n\n" + "1. User always goes first and then the computer\n2. Each " +
