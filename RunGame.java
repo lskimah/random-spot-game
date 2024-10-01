@@ -80,7 +80,7 @@ public class RunGame implements Game {
     public boolean endGame() {
         if (board.isFull()) {
             System.out.println(board);
-            System.out.println("\nRound over- Board is full.");
+            System.out.println("\nROUND OVER- Board is full.");
 
             System.out.print("Do you want to play another game? (enter yes or no): ");
             String choice = SCAN.nextLine().trim().toLowerCase();
