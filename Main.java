@@ -5,9 +5,8 @@
 import java.util.Scanner;
 
 public class Main {
-
     /**
-     *  Main method.
+     *  Main method to run entire program.
      * @param args arguments part of main method.
      */
     public static void main(String[] args) {

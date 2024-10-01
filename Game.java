@@ -1,5 +1,5 @@
 /**
- * Game Interface for methods related to game.
+ * Game Interface for methods in RunGame.
  * @author lskim
  */
 public interface Game {

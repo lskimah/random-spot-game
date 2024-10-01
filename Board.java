@@ -2,6 +2,8 @@
  * Board class to initialize and change game board after each turn.
  * @author lskim
  */
+import java.util.Arrays;
+
 public class Board {
     private String[] spots;
     private final int SIZE = 6;
@@ -20,9 +22,8 @@ public class Board {
      * @return true if adding player's name was successful or false if not.
      */
     public boolean addSpot(int spot, String player) {
-        // Check if the spot is available to add player's name
-        if (spots[spot - 1] == null) {
-            spots[spot - 1] = player;
+        if (spots[spot-1] == null) {
+            spots[spot-1] = player;
             return true;
         }
 
@@ -62,9 +63,7 @@ public class Board {
      * Reset the board by making all spots null.
      */
     public void reset() {
-        for (int i = 0; i < spots.length; i++) {
-            spots[i] = null;
-        }
+        Arrays.fill(spots, null);
     }
 
     /**

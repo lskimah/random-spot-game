@@ -42,6 +42,19 @@ public class Player {
         return rand.nextInt(6) + 1;
     }
 
+    /**
+     * Indicate if user player can do the bonus, which allows them to manually choose a spot to
+     * fill their name.
+     * @return true if it can do the bonus or false if cannot.
+     */
+    public boolean doBonus() {
+        return rand.nextInt(100) < 10;
+    }
+
+    /**
+     * Return a String statement of the player's name
+     * @return player's name
+     */
     @Override
     public String toString() {
         return name;
