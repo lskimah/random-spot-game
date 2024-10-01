@@ -67,7 +67,6 @@ public class Board {
         }
     }
 
-
     /**
      * Return a String representation of the current board.
      * @return current board statement.
