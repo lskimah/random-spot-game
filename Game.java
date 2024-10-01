@@ -6,5 +6,5 @@ public interface Game {
     void start();
     boolean endGame();
     void continueTurn();
-    public void printScore(Player user, Player computer);
+    void printScore(Player user, Player computer);
 }
